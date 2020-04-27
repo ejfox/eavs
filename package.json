@@ -5,10 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "publish": "npm run build;netlify deploy --dir=dist"
   },
   "dependencies": {
+    "chance": "^1.1.3",
     "core-js": "^3.3.2",
+    "d3": "^5.12.0",
+    "intersection-observer": "^0.7.0",
+    "scrollama": "^2.1.2",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3",
     "vuex": "^3.0.1"

@@ -1,0 +1,992 @@
+<template>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1111.4 799.8" style="enable-background:new 0 0 1111.4 799.8;" xml:space="preserve">
+
+<transition
+	enter-active-class="animated fadeIn"
+	leave-active-class="animated fadeOut">
+	<g id="questionable-reasons" v-show="step >= 4">
+		<g>
+			<rect x="906.1" y="610.1" class="st0" width="14.1" height="68.3">
+			<title>Failure to respond
+	6,062,095</title>
+			</rect>
+			<g>
+				<text transform="matrix(1 0 0 1 930.0397 448.3399)"><tspan x="0" y="0" class="st0 st1 st2">OTHER /</tspan><tspan x="0" y="16.2" class="st0 st1 st2">NOT STATED</tspan></text>
+			</g>
+			<text transform="matrix(1 0 0 1 928.9567 483.0685)" class="st3 st4 st5">1,243,759</text>
+			<g>
+				<path class="st6" d="M525,278.4c251.8,0,128.3,365.8,380,365.8"/>
+			</g>
+			<polygon class="st7" points="907.2,452.3 921.3,452.3 920.2,452.4 906.1,452.4 		">
+			<title>Mentally incompetent
+	9,569</title>
+			</polygon>
+			<path class="st8" d="M525,244.2c251.8,0,128.3,208.1,380.1,208.1"/>
+			<text transform="matrix(1 0 0 1 929.9049 622.4913)" class="st0 st1 st2">FAILURE TO RESPOND</text>
+			<g>
+				<text transform="matrix(1 0 0 1 928.9567 636.213)" class="st3 st4 st5"> 6,062,095</text>
+			</g>
+		</g>
+	</g>
+</transition>
+
+<transition
+	enter-active-class="animated fadeIn"
+	leave-active-class="animated fadeOut">
+	<g id="reasons" v-show="step >= 3">
+		<g>
+			<rect x="906.1" y="71.2" class="st9" width="14.1" height="48.1">
+			<title>Moved outside jurisdicton
+	4,268,463</title>
+			</rect>
+			<rect x="906.1" y="252.9" class="st9" width="14.1" height="4.4">
+			<title>Disqualifying felony
+	393,735</title>
+			</rect>
+			<rect x="906.1" y="181.8" class="st9" width="14.1" height="5.5">
+			<title>Voter request
+	489,084</title>
+			</rect>
+			<rect x="906.1" y="332.3" class="st9" width="14.1" height="0.1">
+			<title>Mentally incompetent
+	9,569</title>
+			</rect>
+			<g>
+				<path class="st10" d="M525,210.1c251.8,0,128.3-114.9,380-114.9"/>
+			</g>
+			<g>
+				<path class="st11" d="M525,241.9c251.8,0,128.3,13.2,380,13.2"/>
+			</g>
+			<g>
+				<path class="st12" d="M525,244.2c251.8,0,128.3,88.2,380,88.2"/>
+			</g>
+			<g>
+				<path class="st13" d="M525,236.9c251.8,0,128.3-52.4,380-52.4"/>
+			</g>
+			<text transform="matrix(1 0 0 1 511.9928 159.4215)" class="st1 st2">NON-DEATH</text>
+			<g>
+				<text transform="matrix(1 0 0 1 511.9928 176.6207)" class="st3 st4 st5">13,569,853</text>
+			</g>
+			<text transform="matrix(1 0 0 1 929.9059 84.193)" class="st14"><tspan x="0" y="0" class="st1 st2">MOVED OUTSIDE</tspan><tspan x="0" y="16.2" class="st1 st2">JURISDICTION</tspan></text>
+			<text transform="matrix(1 0 0 1 928.9576 119.1109)" class="st3 st4 st5"> 4,268,463</text>
+			<text transform="matrix(1 0 0 1 929.9049 258.9391)" class="st1 st2">DISQUALIFYING EVENT</text>
+			<text transform="matrix(1 0 0 1 928.9567 277.9068)" class="st3 st4 st5"> 393,735</text>
+			<text transform="matrix(1 0 0 1 930.0104 188.3365)" class="st1 st2">VOTER REQUEST</text>
+			<text transform="matrix(1 0 0 1 928.9567 204.3043)" class="st3 st4 st5"> 489,084</text>
+			<text transform="matrix(1 0 0 1 930.0104 336.149)" class="st1 st2">MENTALLY INCOMPETENT</text>
+			<text transform="matrix(1 0 0 1 928.9567 353.1168)" class="st3 st4 st5"> 9,569</text>
+		</g>
+	</g>
+</transition>
+
+
+<transition
+	enter-active-class="animated fadeIn"
+	leave-active-class="animated fadeOut">
+<g id="state-flows" v-show="step >= 2">
+	<g>
+		<rect x="509.8" y="439.5" class="st9" width="14.1" height="42">
+		<title>Death
+3,730,617</title>
+		</rect>
+		<rect x="509.8" y="186.1" class="st9" width="14.1" height="152.9">
+		<title>Non-Death
+13,569,853</title>
+		</rect>
+	</g>
+	<g id="state-flows-1">
+		<g>
+			<rect x="10.1" y="12" class="st9" width="14.1" height="18.1">
+			<title>TX
+1,609,040</title>
+			</rect>
+			<rect x="10.1" y="198.6" class="st9" width="14.1" height="14.6">
+			<title>IN
+1,292,252</title>
+			</rect>
+			<rect x="10.1" y="135.7" class="st9" width="14.1" height="11.8">
+			<title>FL
+1,046,514</title>
+			</rect>
+			<rect x="10.1" y="158.3" class="st9" width="14.1" height="10.4">
+			<title>VA
+926,015</title>
+			</rect>
+			<rect x="10.1" y="95.3" class="st9" width="14.1" height="9.8">
+			<title>IL
+866,679</title>
+			</rect>
+			<rect x="10.1" y="115.9" class="st9" width="14.1" height="9">
+			<title>GA
+797,124</title>
+			</rect>
+			<rect x="10.1" y="58.9" class="st9" width="14.1" height="8.4">
+			<title>NC
+744,453</title>
+			</rect>
+			<rect x="10.1" y="179.6" class="st9" width="14.1" height="8.3">
+			<title>CA
+733,618</title>
+			</rect>
+			<rect x="10.1" y="41" class="st9" width="14.1" height="7.1">
+			<title>MA
+629,710</title>
+			</rect>
+			<rect x="10.1" y="78.1" class="st9" width="14.1" height="6.3">
+			<title>WA
+560,802</title>
+			</rect>
+			<rect x="10.1" y="224" class="st9" width="14.1" height="6.3">
+			<title>WI
+558,930</title>
+			</rect>
+			<rect x="10.1" y="241.2" class="st9" width="14.1" height="5.6">
+			<title>OH
+495,207</title>
+			</rect>
+			<rect x="10.1" y="257.6" class="st9" width="14.1" height="5.3">
+			<title>TN
+474,280</title>
+			</rect>
+			<rect x="10.1" y="273.7" class="st9" width="14.1" height="5">
+			<title>NJ
+446,569</title>
+			</rect>
+			<rect x="10.1" y="320.4" class="st9" width="14.1" height="4.9">
+			<title>AZ
+437,701</title>
+			</rect>
+			<rect x="10.1" y="336.2" class="st9" width="14.1" height="4.9">
+			<title>MO
+431,006</title>
+			</rect>
+			<rect x="10.1" y="289.6" class="st9" width="14.1" height="4.6">
+			<title>NY
+410,301</title>
+			</rect>
+			<rect x="10.1" y="305.1" class="st9" width="14.1" height="4.6">
+			<title>MI
+404,901</title>
+			</rect>
+			<rect x="10.1" y="366.1" class="st9" width="14.1" height="3.7">
+			<title>SC
+328,273</title>
+			</rect>
+			<rect x="10.1" y="351.9" class="st9" width="14.1" height="3.4">
+			<title>MN
+299,362</title>
+			</rect>
+			<rect x="10.1" y="380.6" class="st9" width="14.1" height="3.3">
+			<title>CO
+289,247</title>
+			</rect>
+			<rect x="10.1" y="422.7" class="st9" width="14.1" height="3.2">
+			<title>PA
+286,383</title>
+			</rect>
+			<rect x="10.1" y="394.7" class="st9" width="14.1" height="3.2">
+			<title>LA
+284,735</title>
+			</rect>
+			<rect x="10.1" y="450.3" class="st9" width="14.1" height="3.2">
+			<title>OK
+282,184</title>
+			</rect>
+			<rect x="10.1" y="408.7" class="st9" width="14.1" height="3.1">
+			<title>MD
+275,973</title>
+			</rect>
+			<rect x="10.1" y="436.7" class="st9" width="14.1" height="2.7">
+			<title>AL
+237,627</title>
+			</rect>
+			<rect x="10.1" y="502.2" class="st9" width="14.1" height="2.2">
+			<title>NV
+196,800</title>
+			</rect>
+			<rect x="10.1" y="476.8" class="st9" width="14.1" height="1.9">
+			<title>MS
+172,747</title>
+			</rect>
+			<rect x="10.1" y="489.5" class="st9" width="14.1" height="1.9">
+			<title>OR
+165,744</title>
+			</rect>
+			<rect x="10.1" y="464.3" class="st9" width="14.1" height="1.7">
+			<title>KS
+148,064</title>
+			</rect>
+			<rect x="10.1" y="527.1" class="st9" width="14.1" height="1.5">
+			<title>AR
+136,550</title>
+			</rect>
+			<rect x="10.1" y="551.7" class="st9" width="14.1" height="1.5">
+			<title>ME
+133,887</title>
+			</rect>
+			<rect x="10.1" y="539.5" class="st9" width="14.1" height="1.3">
+			<title>WV
+116,936</title>
+			</rect>
+			<rect x="10.1" y="564" class="st9" width="14.1" height="1.2">
+			<title>NH
+108,278</title>
+			</rect>
+			<rect x="10.1" y="587.9" class="st9" width="14.1" height="1.2">
+			<title>UT
+106,731</title>
+			</rect>
+			<rect x="10.1" y="599.9" class="st9" width="14.1" height="1.2">
+			<title>ID
+106,420</title>
+			</rect>
+			<rect x="10.1" y="611.9" class="st9" width="14.1" height="1.1">
+			<title>CT
+100,936</title>
+			</rect>
+			<rect x="10.1" y="515.3" class="st9" width="14.1" height="1">
+			<title>KY
+92,710</title>
+			</rect>
+			<rect x="10.1" y="576" class="st9" width="14.1" height="1">
+			<title>IA
+87,562</title>
+			</rect>
+			<rect x="10.1" y="623.9" class="st9" width="14.1" height="1">
+			<title>NE
+86,796</title>
+			</rect>
+			<rect x="10.1" y="635.7" class="st9" width="14.1" height="0.7">
+			<title>MT
+65,343</title>
+			</rect>
+			<rect x="10.1" y="647.3" class="st9" width="14.1" height="0.6">
+			<title>DE
+52,454</title>
+			</rect>
+			<rect x="10.1" y="692.2" class="st9" width="14.1" height="0.6">
+			<title>AK
+51,737</title>
+			</rect>
+			<rect x="10.1" y="669.9" class="st9" width="14.1" height="0.5">
+			<title>RI
+40,991</title>
+			</rect>
+			<rect x="10.1" y="703.6" class="st9" width="14.1" height="0.4">
+			<title>VT
+36,179</title>
+			</rect>
+			<rect x="10.1" y="726" class="st9" width="14.1" height="0.4">
+			<title>SD
+34,380</title>
+			</rect>
+			<rect x="10.1" y="658.7" class="st9" width="14.1" height="0.3">
+			<title>HI
+30,976</title>
+			</rect>
+			<rect x="10.1" y="714.8" class="st9" width="14.1" height="0.3">
+			<title>DC
+27,683</title>
+			</rect>
+			<rect x="10.1" y="748" class="st9" width="14.1" height="0.3">
+			<title>WY
+22,290</title>
+			</rect>
+			<rect x="10.1" y="681.2" class="st9" width="14.1" height="0.2">
+			<title>NM
+18,011</title>
+			</rect>
+			<rect x="10.1" y="759.1" class="st9" width="14.1" height="0.1">
+			<title>GU
+8,305</title>
+			</rect>
+			<rect x="10.1" y="770" class="st9" width="14.1" height="0">
+			<title>AS
+2,678</title>
+			</rect>
+			<rect x="10.1" y="737.2" class="st9" width="14.1" height="0">
+			<title>VI
+396</title>
+			</rect>
+		</g>
+		<g class="st15">
+			<g>
+				<path class="st16" d="M25.2,29C277,29,257,440.6,508.7,440.6"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,212.8c251.8,0,231.7,244.1,483.5,244.1"/>
+			</g>
+			<g>
+				<path class="st18" d="M25.2,145.7c251.8,0,231.7,303.4,483.5,303.4"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,168.2c251.8,0,231.7,283.2,483.5,283.2"/>
+			</g>
+			<g>
+				<path class="st19" d="M25.2,104.3c251.8,0,231.7,341,483.5,341"/>
+			</g>
+			<g>
+				<path class="st20" d="M25.2,124.1c251.8,0,231.7,322.6,483.5,322.6"/>
+			</g>
+			<g>
+				<path class="st21" d="M25.2,66.6C277,66.6,257,443.4,508.7,443.4"/>
+			</g>
+			<g>
+				<path class="st22" d="M25.2,185.5c251.8,0,231.7,268.7,483.5,268.7"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,47.6C277,47.6,257,442.2,508.7,442.2"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,84.2C277,84.2,257,444.4,508.7,444.4"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,229.9c251.8,0,231.7,227.8,483.5,227.8"/>
+			</g>
+			<g>
+				<path class="st23" d="M25.2,245.8c251.8,0,231.7,213.3,483.5,213.3"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,262.4c251.8,0,231.7,198.2,483.5,198.2"/>
+			</g>
+			<g>
+				<path class="st24" d="M25.2,278.2c251.8,0,231.7,183.5,483.5,183.5"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,324.9c251.8,0,231.7,141.9,483.5,141.9"/>
+			</g>
+			<g>
+				<path class="st25" d="M25.2,340.5c251.8,0,231.7,127.3,483.5,127.3"/>
+			</g>
+			<g>
+				<path class="st26" d="M25.2,293.3c251.8,0,231.7,170,483.5,170"/>
+			</g>
+			<g>
+				<path class="st27" d="M25.2,308.6c251.8,0,231.7,156.6,483.5,156.6"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,369.5c251.8,0,231.7,99.8,483.5,99.8"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,354.9c251.8,0,231.7,113.8,483.5,113.8"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,383.6c251.8,0,231.7,86.3,483.5,86.3"/>
+			</g>
+			<g>
+				<path class="st28" d="M25.2,425c251.8,0,231.7,47.9,483.5,47.9"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,397.5c251.8,0,231.7,73.1,483.5,73.1"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,453.2c251.8,0,231.7,21.6,483.5,21.6"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,411.4c251.8,0,231.7,60,483.5,60"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,439c251.8,0,231.7,35.2,483.5,35.2"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,504.3c251.8,0,231.7-27.5,483.5-27.5"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,478.4c251.8,0,231.7-2.6,483.5-2.6"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,491.1c251.8,0,231.7-14.7,483.5-14.7"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,465.7c251.8,0,231.7,9.6,483.5,9.6"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,528.5C277,528.5,257,478,508.7,478"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,553.1c251.8,0,231.7-74.3,483.5-74.3"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,540.6c251.8,0,231.7-62.2,483.5-62.2"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,565.2c251.8,0,231.7-86.2,483.5-86.2"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,589C277,589,257,479.6,508.7,479.6"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,601C277,601,257,479.7,508.7,479.7"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,613C277,613,257,479.9,508.7,479.9"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,515.9c251.8,0,231.7-38.6,483.5-38.6"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,576.8c251.8,0,231.7-97.5,483.5-97.5"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,624.7c251.8,0,231.7-144.6,483.5-144.6"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,636.4c251.8,0,231.7-156,483.5-156"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,647.8c251.8,0,231.7-167.3,483.5-167.3"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,692.7c251.8,0,231.7-211.6,483.5-211.6"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,670.3c251.8,0,231.7-189.3,483.5-189.3"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,704C277,704,257,481.2,508.7,481.2"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,726.3c251.8,0,231.7-244.9,483.5-244.9"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,658.9c251.8,0,231.7-178.2,483.5-178.2"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,715.1c251.8,0,231.7-233.8,483.5-233.8"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,748.3c251.8,0,231.7-266.8,483.5-266.8"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,681.3C277,681.3,257,481,508.7,481"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,759.2c251.8,0,231.7-277.7,483.5-277.7"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,770.1c251.8,0,231.7-288.5,483.5-288.5"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,737.2c251.8,0,231.7-255.7,483.5-255.7"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,780.9c251.8,0,231.7-299.4,483.5-299.4"/>
+			</g>
+			<g>
+				<path class="st29" d="M25.2,20C277,20,257,194,508.7,194"/>
+			</g>
+			<g>
+				<path class="st30" d="M25.2,205.5c251.8,0,231.7,59.6,483.5,59.6"/>
+			</g>
+			<g>
+				<path class="st31" d="M25.2,139.9C277,139.9,257,241,508.7,241"/>
+			</g>
+			<g>
+				<path class="st32" d="M25.2,163c251.8,0,231.7,86.9,483.5,86.9"/>
+			</g>
+			<g>
+				<path class="st33" d="M25.2,99.5C277,99.5,257,225,508.7,225"/>
+			</g>
+			<g>
+				<path class="st34" d="M25.2,119.6C277,119.6,257,233,508.7,233"/>
+			</g>
+			<g>
+				<path class="st35" d="M25.2,62.4C277,62.4,257,211.6,508.7,211.6"/>
+			</g>
+			<g>
+				<path class="st36" d="M25.2,181.4c251.8,0,231.7,75,483.5,75"/>
+			</g>
+			<g>
+				<path class="st37" d="M25.2,44C277,44,257,205,508.7,205"/>
+			</g>
+			<g>
+				<path class="st38" d="M25.2,81C277,81,257,217.9,508.7,217.9"/>
+			</g>
+			<g>
+				<path class="st39" d="M25.2,226.8c251.8,0,231.7,47.9,483.5,47.9"/>
+			</g>
+			<g>
+				<path class="st40" d="M25.2,243c251.8,0,231.7,36.3,483.5,36.3"/>
+			</g>
+			<g>
+				<path class="st41" d="M25.2,259.7c251.8,0,231.7,23.5,483.5,23.5"/>
+			</g>
+			<g>
+				<path class="st42" d="M25.2,275.7c251.8,0,231.7,11.7,483.5,11.7"/>
+			</g>
+			<g>
+				<path class="st43" d="M25.2,322.4c251.8,0,231.7-25.9,483.5-25.9"/>
+			</g>
+			<g>
+				<path class="st44" d="M25.2,338.1c251.8,0,231.7-37.8,483.5-37.8"/>
+			</g>
+			<g>
+				<path class="st45" d="M25.2,290.9c251.8,0,231.7-0.3,483.5-0.3"/>
+			</g>
+			<g>
+				<path class="st46" d="M25.2,306.3c251.8,0,231.7-13.1,483.5-13.1"/>
+			</g>
+			<g>
+				<path class="st47" d="M25.2,367.7c251.8,0,231.7-61.3,483.5-61.3"/>
+			</g>
+			<g>
+				<path class="st48" d="M25.2,353.2c251.8,0,231.7-49.8,483.5-49.8"/>
+			</g>
+			<g>
+				<path class="st49" d="M25.2,381.9c251.8,0,231.7-72.6,483.5-72.6"/>
+			</g>
+			<g>
+				<path class="st50" d="M25.2,423.3c251.8,0,231.7-107.4,483.5-107.4"/>
+			</g>
+			<g>
+				<path class="st51" d="M25.2,395.9c251.8,0,231.7-84.1,483.5-84.1"/>
+			</g>
+			<g>
+				<path class="st52" d="M25.2,451.6c251.8,0,231.7-131.8,483.5-131.8"/>
+			</g>
+			<g>
+				<path class="st53" d="M25.2,409.9c251.8,0,231.7-95.7,483.5-95.7"/>
+			</g>
+			<g>
+				<path class="st54" d="M25.2,437.7c251.8,0,231.7-120.2,483.5-120.2"/>
+			</g>
+			<g>
+				<path class="st55" d="M25.2,503.2C277,503.2,257,326,508.7,326"/>
+			</g>
+			<g>
+				<path class="st56" d="M25.2,477.4c251.8,0,231.7-154.3,483.5-154.3"/>
+			</g>
+			<g>
+				<path class="st57" d="M25.2,490.2c251.8,0,231.7-165.8,483.5-165.8"/>
+			</g>
+			<g>
+				<path class="st58" d="M25.2,464.9c251.8,0,231.7-143.1,483.5-143.1"/>
+			</g>
+			<g>
+				<path class="st59" d="M25.2,527.7c251.8,0,231.7-199.9,483.5-199.9"/>
+			</g>
+			<g>
+				<path class="st60" d="M25.2,552.3c251.8,0,231.7-222.4,483.5-222.4"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,540C277,540,257,328.8,508.7,328.8"/>
+			</g>
+			<g>
+				<path class="st61" d="M25.2,564.6c251.8,0,231.7-233.5,483.5-233.5"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,588.4c251.8,0,231.7-255.8,483.5-255.8"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,600.4c251.8,0,231.7-266.8,483.5-266.8"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,612.4c251.8,0,231.7-277.7,483.5-277.7"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,515.4c251.8,0,231.7-188.3,483.5-188.3"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,576.3c251.8,0,231.7-244.4,483.5-244.4"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,624.2c251.8,0,231.7-288.8,483.5-288.8"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,636C277,636,257,336.1,508.7,336.1"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,647.5c251.8,0,231.7-310.9,483.5-310.9"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,692.4c251.8,0,231.7-354.9,483.5-354.9"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,670c251.8,0,231.7-333,483.5-333"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,703.8C277,703.8,257,338,508.7,338"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,726.1c251.8,0,231.7-387.6,483.5-387.6"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,658.7c251.8,0,231.7-321.9,483.5-321.9"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,715C277,715,257,338.2,508.7,338.2"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,748.1c251.8,0,231.7-409.4,483.5-409.4"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,681.2c251.8,0,231.7-343.9,483.5-343.9"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,759.1c251.8,0,231.7-420.2,483.5-420.2"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,770C277,770,257,339,508.7,339"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,737.2c251.8,0,231.7-398.5,483.5-398.5"/>
+			</g>
+			<g>
+				<path class="st17" d="M25.2,780.9C277,780.9,257,339,508.7,339"/>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 531.485 464.2882)" class="st1 st2">DEATH</text>
+	<g>
+		<text transform="matrix(1 0 0 1 531.485 481.0772)" class="st3 st4 st5">3,730,617</text>
+	</g>
+</g>
+</transition>
+
+<transition
+	enter-active-class="animated fadeIn"
+	leave-active-class="animated fadeOut">
+<g id="state-labels" v-show="step >= 1">
+	<g>
+		<text transform="matrix(1 0 0 1 11.7166 24.877)" class="st1 st62">TX</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 24.877)" class="st3 st4 st62">1,609,040</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 209.7203)" class="st1 st62">IN</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 209.7203)" class="st3 st4 st62"> 1,292,252</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 145.359)" class="st1 st62">FL</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 145.359)" class="st3 st4 st62"> 1,046,514</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 167.2994)" class="st1 st62">VA</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 167.2994)" class="st3 st4 st62"> 926,015</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 103.941)" class="st1 st62">IL</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 103.941)" class="st3 st4 st62"> 866,679</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 124.1432)" class="st1 st62">GA</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 124.1432)" class="st3 st4 st62"> 797,124</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 66.8883)" class="st1 st62">NC</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 66.8883)" class="st3 st4 st62"> 744,453</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 187.4781)" class="st1 st62">CA</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 187.4781)" class="st3 st4 st62"> 733,618</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 48.318)" class="st1 st62">MA</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 48.318)" class="st3 st4 st62"> 629,710</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 85.0709)" class="st1 st62">WA</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 85.0709)" class="st3 st4 st62"> 560,802</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 230.9771)" class="st1 st62">WI</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 230.9771)" class="st3 st4 st62"> 558,930</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 247.7447)" class="st1 st62">OH</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 247.7447)" class="st3 st4 st62"> 495,207</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 264.0357)" class="st1 st62">TN</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 264.0357)" class="st3 st4 st62"> 474,280</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 280.0523)" class="st1 st62">NJ</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 280.0523)" class="st3 st4 st62"> 446,569</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7293 326.7057)" class="st1 st62">AZ</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 326.7057)" class="st3 st4 st62"> 437,701</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 342.4283)" class="st1 st62">MO</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 342.4283)" class="st3 st4 st62"> 431,006</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 295.7086)" class="st1 st62">NY</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 295.7086)" class="st3 st4 st62"> 410,301</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 311.1295)" class="st1 st62">MI</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 311.1295)" class="st3 st4 st62"> 404,901</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 371.7369)" class="st1 st62">SC</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 371.7369)" class="st3 st4 st62"> 328,273</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 357.3717)" class="st1 st62">MN</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 357.3717)" class="st3 st4 st62"> 299,362</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 386.0445)" class="st1 st62">CO</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 386.0445)" class="st3 st4 st62"> 289,247</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 428.0929)" class="st1 st62">PA</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 428.0929)" class="st3 st4 st62"> 286,383</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 400.1075)" class="st1 st62">LA</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 400.1075)" class="st3 st4 st62"> 284,735</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 455.631)" class="st1 st62">OK</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 455.631)" class="st3 st4 st62"> 282,184</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 414.0948)" class="st1 st62">MD</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 414.0948)" class="st3 st4 st62"> 275,973</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7293 441.8731)" class="st1 st62">AL</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 441.8731)" class="st3 st4 st62"> 237,627</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 507.128)" class="st1 st62">NV</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 507.128)" class="st3 st4 st62"> 196,800</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 481.5196)" class="st1 st62">MS</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 481.5196)" class="st3 st4 st62"> 172,747</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 494.256)" class="st1 st62">OR</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 494.256)" class="st3 st4 st62"> 165,744</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 468.8839)" class="st1 st62">KS</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 468.8839)" class="st3 st4 st62"> 148,064</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7293 531.7081)" class="st1 st62">AR</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 531.7081)" class="st3 st4 st62"> 136,550</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 556.2071)" class="st1 st62">ME</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 556.2071)" class="st3 st4 st62"> 133,887</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 543.9649)" class="st1 st62">WV</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 543.9649)" class="st3 st4 st62"> 116,936</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 568.4005)" class="st1 st62">NH</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 568.4005)" class="st3 st4 st62"> 108,278</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 592.2559)" class="st1 st62">UT</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 592.2559)" class="st3 st4 st62"> 106,731</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 604.2862)" class="st1 st62">ID</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 604.2862)" class="st3 st4 st62"> 106,420</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 616.2833)" class="st1 st62">CT</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 616.2833)" class="st3 st4 st62"> 100,936</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 519.588)" class="st1 st62">KY</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 519.588)" class="st3 st4 st62"> 92,710</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 580.3331)" class="st1 st62">IA</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 580.3331)" class="st3 st4 st62"> 87,562</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 628.17)" class="st1 st62">NE</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 628.17)" class="st3 st4 st62"> 86,796</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 639.8555)" class="st1 st62">MT</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 639.8555)" class="st3 st4 st62"> 65,343</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 651.3487)" class="st1 st62">DE</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 651.3487)" class="st3 st4 st62"> 52,454</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7293 696.2647)" class="st1 st62">AK</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 696.2647)" class="st3 st4 st62"> 51,737</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 673.8819)" class="st1 st62">RI</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 673.8819)" class="st3 st4 st62"> 40,991</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 707.5899)" class="st1 st62">VT</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 707.5899)" class="st3 st4 st62"> 36,179</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 729.9571)" class="st1 st62">SD</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 729.9571)" class="st3 st4 st62"> 34,380</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 662.6475)" class="st1 st62">HI</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 662.6475)" class="st3 st4 st62"> 30,976</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 718.7784)" class="st1 st62">DC</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 718.7784)" class="st3 st4 st62"> 27,683</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 751.9395)" class="st1 st62">WY</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 751.9395)" class="st3 st4 st62"> 22,290</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 685.044)" class="st1 st62">NM</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 685.044)" class="st3 st4 st62"> 18,011</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 762.9405)" class="st1 st62">GU</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 762.9405)" class="st3 st4 st62"> 8,305</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7293 773.8311)" class="st1 st62">AS</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 773.8311)" class="st3 st4 st62"> 2,678</text>
+		</g>
+		<text transform="matrix(1 0 0 1 11.7166 740.9825)" class="st1 st62">VI</text>
+		<g>
+			<text transform="matrix(1 0 0 1 33.3377 740.9825)" class="st3 st4 st62"> 396</text>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 11.7166 784.6758)" class="st1 st62">ND</text>
+	<g>
+		<text transform="matrix(1 0 0 1 33.3377 784.6758)" class="st3 st4 st62"> 0</text>
+	</g>
+</g>
+</transition>
+</svg>
+</template>
+
+<script>
+import * as d3 from 'd3'
+
+export default {
+  name: 'Sankey',
+  props: {
+    step: Number
+	},
+	watch: {
+		step: function (newVal, oldVal) {
+			// if(newVal == 2) {
+			// 	d3.select('#state-flows')
+			// 		.classed('o-0', false)
+			// 	d3.select('#state-flows')
+			// 		.classed('o-100', true)
+			// } else if(newVal == 3) {
+			// 	d3.select('#reasons')
+			// 		.classed('o-0', false)
+			// 	d3.select('#reasons')
+			// 		.classed('o-100', true)
+			// } else if(newVal == 4) {
+			// 	d3.select('#questionable-reasons')
+			// 		.classed('o-0', false)
+			// 	d3.select('#questionable-reasons')
+			// 		.classed('o-100', true)
+			// }
+		}
+	}
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="stylus">
+h3
+  margin 40px 0 0
+
+ul
+  list-style-type none
+  padding 0
+
+li
+  display inline-block
+  margin 0 10px
+
+a
+  color #42b983
+
+g
+	transition opacity 1.2s ease-out
+
+	.st0{fill:#D59B31;}
+	.st1{font-family:'HelveticaNeue-CondensedBlack';}
+	.st2{font-size:15.1607px;}
+	.st3{fill:#4C4C4C;}
+	.st4{font-family:'HelveticaNeue-Bold';}
+	.st5{font-size:14px;}
+	.st6{fill:none;stroke:#FFB93B;stroke-width:63.0721;}
+	.st7{fill:none;stroke:#D59B31;stroke-width:12.9405;}
+	.st8{fill:none;stroke:#F6B839;stroke-width:12.9405;}
+	.st9{fill:#B9B9B9;}
+	.st10{fill:none;stroke:#DDDDDD;stroke-width:44.4105;}
+	.st11{fill:none;stroke:#DDDDDD;stroke-width:4.0966;}
+	.st12{fill:none;stroke:#DDDDDD;}
+	.st13{fill:none;stroke:#DDDDDD;stroke-width:5.0886;}
+	.st14{enable-background:new    ;}
+	.st15{opacity:0.72;}
+	.st16{fill:none;stroke:#878787;stroke-width:2.0573;}
+	.st17{fill:none;stroke:#878787;}
+	.st18{fill:none;stroke:#878787;stroke-width:3.1658;}
+	.st19{fill:none;stroke:#878787;stroke-width:1.2791;}
+	.st20{fill:none;stroke:#878787;stroke-width:1.3113;}
+	.st21{fill:none;stroke:#878787;stroke-width:1.3504;}
+	.st22{fill:none;stroke:#878787;stroke-width:4.2049;}
+	.st23{fill:none;stroke:#878787;stroke-width:1.7804;}
+	.st24{fill:none;stroke:#878787;stroke-width:1.0795;}
+	.st25{fill:none;stroke:#878787;stroke-width:1.0552;}
+	.st26{fill:none;stroke:#878787;stroke-width:1.798;}
+	.st27{fill:none;stroke:#878787;stroke-width:1.8292;}
+	.st28{fill:none;stroke:#878787;stroke-width:1.7676;}
+	.st29{fill:none;stroke:#878787;stroke-width:14.6837;}
+	.st30{fill:none;stroke:#878787;stroke-width:12.677;}
+	.st31{fill:none;stroke:#878787;stroke-width:7.7224;}
+	.st32{fill:none;stroke:#878787;stroke-width:8.6443;}
+	.st33{fill:none;stroke:#878787;stroke-width:7.7381;}
+	.st34{fill:none;stroke:#878787;stroke-width:6.9822;}
+	.st35{fill:none;stroke:#878787;stroke-width:6.3951;}
+	.st36{fill:none;stroke:#878787;stroke-width:3.428;}
+	.st37{fill:none;stroke:#878787;stroke-width:5.6445;}
+	.st38{fill:none;stroke:#878787;stroke-width:5.3787;}
+	.st39{fill:none;stroke:#878787;stroke-width:5.0754;}
+	.st40{fill:none;stroke:#878787;stroke-width:3.3719;}
+	.st41{fill:none;stroke:#878787;stroke-width:3.9725;}
+	.st42{fill:none;stroke:#878787;stroke-width:3.5668;}
+	.st43{fill:none;stroke:#878787;stroke-width:3.596;}
+	.st44{fill:none;stroke:#878787;stroke-width:3.4291;}
+	.st45{fill:none;stroke:#878787;stroke-width:2.4709;}
+	.st46{fill:none;stroke:#878787;stroke-width:2.3835;}
+	.st47{fill:none;stroke:#878787;stroke-width:2.9382;}
+	.st48{fill:none;stroke:#878787;stroke-width:2.4945;}
+	.st49{fill:none;stroke:#878787;stroke-width:2.4286;}
+	.st50{fill:none;stroke:#878787;stroke-width:1.2121;}
+	.st51{fill:none;stroke:#878787;stroke-width:2.2143;}
+	.st52{fill:none;stroke:#878787;stroke-width:2.5706;}
+	.st53{fill:none;stroke:#878787;stroke-width:2.072;}
+	.st54{fill:none;stroke:#878787;stroke-width:1.6789;}
+	.st55{fill:none;stroke:#878787;stroke-width:1.8361;}
+	.st56{fill:none;stroke:#878787;stroke-width:1.242;}
+	.st57{fill:none;stroke:#878787;stroke-width:1.1499;}
+	.st58{fill:none;stroke:#878787;stroke-width:1.1292;}
+	.st59{fill:none;stroke:#878787;stroke-width:1.0138;}
+	.st60{fill:none;stroke:#878787;stroke-width:1.1755;}
+	.st61{fill:none;stroke:#878787;stroke-width:1.017;}
+	.st62{font-size:12px;}
+
+
+
+.animated
+	transition-duration 1.5s
+</style>
